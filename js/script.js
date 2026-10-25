@@ -44,8 +44,7 @@ const createLetterPlaceholders = function(){ //solution code has given the funct
     for (const letter of word){
         console.log(letter);
         placeholders.push("●");
-        //solution code : wordInProgress.innerText = placeholders.join(""); I chose the form below because the other version had comas in between the dots. 
-        wordInProgress.innerText = `${placeholders.join("")}`;
+        wordInProgress.innerText = placeholders.join("");
         } 
     };
     createLetterPlaceholders(word);
